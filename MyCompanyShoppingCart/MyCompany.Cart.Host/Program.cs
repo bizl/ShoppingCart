@@ -14,6 +14,8 @@ namespace MyCompany.Cart.Host
         {
             HostFactory.Run(x =>
             {
+                //Use IoC to instantiate types and start server 
+
                 x.Service<BasketServer>(s =>
                 {
                     s.ConstructUsing(name => new BasketServer());
@@ -23,7 +25,7 @@ namespace MyCompany.Cart.Host
 
                 x.RunAsLocalSystem();
 
-                const string display = "Equity Service Started";
+                const string display = "Basket Service Started";
                 x.SetDescription(display);
                 x.SetDisplayName(display);
                 x.SetServiceName(display);
