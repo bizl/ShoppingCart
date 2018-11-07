@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompany.Cart.Host", "MyCompany.Cart.Host\MyCompany.Cart.Host.csproj", "{48A60254-49E5-4EBC-96DA-77FD727E0636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompany.Cart.Api", "MyCompany.Cart.Api\MyCompany.Cart.Api.csproj", "{731A902C-207C-4389-9BE4-1D997B6C1226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A60254-49E5-4EBC-96DA-77FD727E0636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A60254-49E5-4EBC-96DA-77FD727E0636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A60254-49E5-4EBC-96DA-77FD727E0636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A60254-49E5-4EBC-96DA-77FD727E0636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731A902C-207C-4389-9BE4-1D997B6C1226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731A902C-207C-4389-9BE4-1D997B6C1226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731A902C-207C-4389-9BE4-1D997B6C1226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731A902C-207C-4389-9BE4-1D997B6C1226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F6EBD66-C5B8-4163-9F37-52FE1C1E72AC}
+	EndGlobalSection
+EndGlobal
